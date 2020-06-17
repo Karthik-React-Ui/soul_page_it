@@ -1,0 +1,169 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.loader-body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.spinner-grow {
+  width: 4rem;
+  height: 4rem;
+  margin-left: 1rem;
+}
+
+.container .card {
+  padding: 0 0 20px 0;
+  margin: 20px 0;
+  border: none;
+  border-bottom: 2px solid;
+  border-radius: 0px;
+}
+
+h4.card-title {
+  margin: 10px 0;
+  font-family: cursive;
+}
+
+.modal-dialog {
+  max-width: 100% !important;
+  margin: 0 !important;
+  position: fixed !important;
+  top: 0;
+  background-color: rgba(74, 71, 71, 0.8);
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.modal-dialog .modal-content {
+  width: 50%;
+  margin: 20px auto;
+  position: relative;
+}
+
+.modal-dialog .modal-content i {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.modal-dialog .modal-content .modal-header {
+  padding: 0;
+  border: none;
+}
+
+.modal-content .modal-header button {
+  padding: 0;
+  margin-top: 6px;
+  margin-right: 10px;
+}
+
+.content img {
+  width: 100%;
+  height: 300px;
+  margin-top:10px;
+}
+
+.content .card-title {
+  text-align: center;
+}
+
+.content p {
+  text-align: justify;
+}
+
+.title {
+  margin: 0;
+  padding: 10px;
+  background: cadetblue;
+  text-align: center;
+  color: #fff;
+}
+
+.cover-section {
+  text-align: center;
+  position: relative;
+}
+
+.cover-section i {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.cover-section i.active {
+  color: red;
+}
+
+.location-info {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.location-info span {
+  font-weight: 500;
+  margin-right: 12px;
+}
+
+.info-click {
+  text-align: center;
+}
+
+.cover-section img {
+  width: 100%;
+}
